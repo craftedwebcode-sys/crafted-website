@@ -3,3 +3,5 @@
 li {list-style: none;}
 a {text-decoration: none;}
 body {width: 980px; margin: 0 auto; position: relative;}
+
+h1.title {font-family: "Pacifico", cursive;}
