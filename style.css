@@ -4,4 +4,10 @@ li {list-style: none;}
 a {text-decoration: none;}
 body {width: 980px; margin: 0 auto; position: relative;}
 
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1.title {font-family: "Pacifico", cursive;}
