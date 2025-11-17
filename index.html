@@ -1,56 +1,120 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>정수련</title>
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./img/favicon_edited.ico" type="image/x-icon">
-  <link rel="icon" href="./img/favicon_edited.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/정수련-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header class="main_header">
-    <div class="logo">
-      <a href="#"><img src="./img/favicon_edited.png" alt="로고"></a>
-    </div><!-- logo end -->
+    <!-- 반응형!! -->
+    <!-- header -->
+    <div class="header_wrap">
+        <header class="main_header">
+            <a href="#"><img src="img/logo.png" alt="로고" class="logo"></a>
+            <nav class="lnb">
+                <a href="#">Our Foods</a>
+                <a href="#">Recipes</a>
+                <a href="#" class="bi bi-search"></a>
+                <a href="#">Contact Us</a>
+            </nav><!-- lnb end -->
+        </header><!-- main_header end -->
+    </div><!-- header_wrap end -->
 
-    <ul class="gnb">
-      <li><a href="#">로그인</a></li>
-      <li><a href="#">회원가입</a></li>
-      <li><a href="#">고객센터</a></li>
-    </ul>
-  </header><!-- main_header end -->
-  <aside class="aside">
-    <a href="#"><img src="경로" alt="이름"></a>
-    <a href="#"><img src="경로" alt="이름"></a>
-    <a href="#"><img src="경로" alt="이름"></a>
-    <a href="#"><img src="경로" alt="이름"></a>
-    <a href="#"><img src="경로" alt="이름"></a>
-  </aside><!-- aside end -->
+    <!-- section -->
+    <!-- section1 -->
+    <section class="section1">
+        <h1>Dairy Different</h1>
+        <p>Reinventing dairy with plants, not cows</p>
+        <div class="button">
+            <a href="#">Our foods</a>
+            <a href="#">Learn more</a>
+        </div><!-- button end -->
+    </section><!-- section1 end -->
 
-  <ul class="top_gnb">
-    <li class="active">지역</li>
-    <li>쇼핑</li>
-    <li>쇼핑</li>
-    <li>쇼핑</li>
-    <li>쇼핑</li>
-    <li>쇼핑</li>
-    <li>전체보기</li>
-  </ul><!-- top_gnb end -->
-  <ul class="bottom_gnb">
-    <li class="active1">스페셜</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>의류</li>
-    <li>전체보기</li>
+    <!-- section2 -->
+    <section class="section2">
+        <div class="text">
+            <h5>There's a better way</h5>
+            <h1>Our food Philosophy is Simple</h1>
+            <p>Our mission is to make food make sense by making amazing dairy-free yogurt, milk and creamers that are good for you, our planet and our future.</p>
+            <a href="#" class="button">Our story</a>
+        </div><!-- text end -->
+    </section><!-- section2 end -->
+    
+    <!-- section3 -->    
+    <section class="section3">
+        <h1>Explore Our Products</h1>
+        <div class="products">
+            <a href="#" class="p_box">
+                <h5>Greek Yogurt</h5>
+                <img src="img/yogurt_greek.png" alt="">
+            </a>
+            <a href="#" class="p_box">
+                <h5>Low Fat Yogurt</h5>
+                <img src="img/yogurt_low fat.png" alt="">
+            </a>
+            <a href="#" class="p_box">
+                <h5>Mixed Berries Yogurt</h5>
+                <img src="img/yogurt_mixed berries.png" alt="">
+            </a>
+            <a href="#" class="p_box">
+                <h5>Coconut Yogurt</h5>
+                <img src="img/yogurt_coconut.png" alt="">
+            </a>
+        </div><!-- products end -->
+    </section><!-- section3 end -->
+
+    <!-- section4 -->
+    <section class="section4">
+        <h1>Our Services</h1>
+        <a href="#" class="s_box">
+            <div class="truck bi bi-truck"></div>
+            <p>Yogurt Delivery</p>
+        </a>
+        <a href="#" class="s_box">
+            <div class="cup-straw bi bi-cup-straw"></div>
+            <p>Yogurt Workshop</p>
+        </a>
+        <a href="#" class="s_box">
+            <div class="book bi bi-book"></div>
+            <p>Yogurt Recipes</p>
+        </a>
+    </section><!-- section4 end -->
+
+    <!-- article -->
+    <article class="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us to learn more about how Forager project can transform your daily life.</p>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Message">
+    </article><!-- article.contact end -->
+
+    <!-- footer -->
+     <footer class="footer">
+        <a href="#"><img src="img/logo.png" alt="로고" class="logo"></a>
+        <div class="text">
+            <address>82-355 Market St, Indio, CA 92201</address>
+            <p>+82 010-8890-5824</p>
+            <p>Copyright © Forager Coporate All Rights Reserved.</p>
+        </div><!-- text end -->
+        <div class="icons">
+            <a href="#" class="icon_box bi bi-instagram">
+            </a>
+            <a href="#" class="icon_box bi bi-tiktok">
+            </a>
+            <a href="#" class="icon_box bi bi-whatsapp">
+            </a>
+        </div><!-- icons end -->
+     </footer><!-- footer end -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
