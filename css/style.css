@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+body,html {
+    width: 100%; height: 100%; 
+    position: relative;
+    z-index: -1;}
+body {
+    background: url(../img/main-background.jpg) top no-repeat;
+}
+* {padding: 0; margin: 0 !important;}
+a {display: block; text-decoration: none !important;}
+li {list-style: none;}
+
+/* header */
+div.header_wrap {
+    position: relative; display: block;
+    height: 145px;
+    border-bottom: 1px solid #000; left: 0; right: 0;
+}
+header.main_header {
+    position: relative;
+}
+img.logo {
+    position: absolute; top: 25px; width: 200px; height: 100px;
+    padding-left: 30px;
+}
+nav.lnb a {
+    position: absolute; display: flex;
+    width: 200px; font-size: 1.5em;
+    color: #000;
+}
+nav.lnb a:nth-child(1) {
+    top: 60px; left: 1400px;
+}
+nav.lnb a:nth-child(2) {
+    top: 60px; left: 1550px;
+}
+nav.lnb a:nth-child(3) {
+    height: 50px; width: 50px;
+    top: 60px; left: 1650px;
+    font-size: 1.5em;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 12px;
+}
+nav.lnb a:nth-child(4) {
+    height: 50px; width: 150px;
+    top: 60px; left: 1720px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 5px 12px;
+}
+
+/* section */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px 0 0 30px;
+    width: 500px;
+    height: 962px;
+}
+.section1 h1 {
+    font-size: 110px;
+}
+.section1 p {
+    font-size: 32px;
+}
+.section1 .button {
+    position: relative;
+    padding: 10px 0;
+}
+.section1 .button a {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 120px; height: 50px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000;
+    line-height: 50px;
+    justify-content: center;
+}
+.section1 .button a:nth-child(1) {
+    left: 0;
+}
+.section1 .button a:nth-child(2) {
+    left: 150px;
+}
+
+/* section2 */
+.section2 {
+    border-top: 1px solid #000;
+    position: relative;
+    height: 800px;
+    background: url(../img/coffee.jpg) right no-repeat #f6f4f2;
+    padding: 30px 0 0 30px;
+}
+.section2 .text {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section2 h1 {
+    font-size: 80px;
+    
+}
+.section2 p {
+    font-size: 22px;
+    text-align: justify;
+}
+.section2 .button {
+    width: 100px; height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000;
+    line-height: 50px;
+}
+
+/* section3 */
+.section3 {
+    position: relative;
+    border-top: 1px solid #000;
+    height: 750px;
+    background: #f6f4f2;
+    padding: 30px 0 0 30px;
+    overflow: hidden;
+}
+.section3 h1 {
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.section3 .p_box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background: #e9e7e5;
+    transition: all 0.3s;
+}
+.section3 .p_box:hover {
+    scale: 1.1;
+}
+.section3 .p_box:nth-child(1) {
+    left: 30px;
+}
+.section3 .p_box:nth-child(2) {
+    left: 500px;
+}
+.section3 .p_box:nth-child(3) {
+    left: 970px;
+}
+.section3 .p_box:nth-child(4) {
+    left: 1440px;
+}
+.section3 .p_box img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    left: 50px;
+}
+.section3 .p_box:nth-child(4) img {
+    width: 300px;
+    left: 0;
+}
+.section3 .p_box h5 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000;
+}
+
+/* section4 */
+.section4 {
+    position: relative;
+    border-top: 1px solid #000;
+    height: 700px;
+    background: #f6f4f2;
+    padding: 30px 0 0 30px;
+    overflow: hidden; 
+}
+.section4 h1 {
+    font-size: 80px;
+    padding-bottom: 80px;
+}
+.section4 .s_box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    transition: all 0.3s;
+    background-color: #e9e7e5;
+}
+.section4 .s_box:hover {
+    scale: 1.2;
+    background-color: #0002;
+}
+.section4 .s_box:hover .truck, .section4 .s_box:hover .cup-straw, .section4 .s_box:hover .book {
+    color: #fff;
+}
+.section4 .s_box:hover p {
+    color: #fff;
+}
+.section4 .s_box:nth-of-type(1) {
+    left: 250px;
+}
+.section4 .s_box:nth-of-type(2) {
+    left: 750px;
+}
+.section4 .s_box:nth-of-type(3) {
+    left: 1250px;
+}
+.section4 .s_box p {
+    display: block;
+    position: absolute;
+    width: 200px; height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #000;
+    left: 50px;
+    top: 220px;
+}
+.truck, .cup-straw, .book {
+    position: absolute;
+    font-size: 150px;
+    color: #000;
+    left: 75px;
+    top: 25px;  
+}
+.s_box .bi::before {
+    font-weight: 100 !important;
+}
+
+/* article */
+article.contact {
+    position: relative;
+    border-top: 1px solid #000;
+    height: 350px;
+    background: #f6f4f2;
+    padding: 30px 0 0 30px;
+    overflow: hidden;
+}
+.contact h1 {
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+.contact p {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.contact input {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    padding-left: 5px;
+    border: 1px solid #d0cdca;
+    border-radius: 15px;
+}
+.contact input:nth-of-type(1) {
+    left: 30px;
+}
+.contact input:nth-of-type(2) {
+    left: 250px;
+}
+.contact input:nth-of-type(3) {
+    left: 470px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    border-top: 1px solid #000;
+    height: 200px;
+    background: #f6f4f2;
+    padding: 30px 0 0 30px;
+    overflow: hidden;
+}
+footer .logo {
+    position: absolute;
+    top: 50px;
+}
+footer .text {
+    position: absolute;
+    top: 50px;
+    display: block;
+    width: 1500px;
+    font-size: 22px;
+    font-family: "Playwrite GB J", cursive;
+}
+footer address {
+    position: absolute;
+    left: 350px;
+}
+footer p:nth-of-type(1) {
+    position: absolute;
+    left: 850px;
+}
+footer p:nth-of-type(2) {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    color: #b2b1b1;
+    font-size: 16px;    
+}
+a.icon_box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 25px;
+    top: 50px;
+}
+a.icon_box:nth-child(1) {
+    left: 1250px;    
+}
+a.icon_box:nth-child(2) {
+    left: 1310px;    
+}
+a.icon_box:nth-child(3) {
+    left: 1370px;    
+}
